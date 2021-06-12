@@ -4,6 +4,7 @@ Application fetches data from public api: [SWAPI](https://swapi.dev/) and displa
 #### Included features:
 * filtering result table by name
 * pagination with 10 results per page
+* error catching during get request
 
 ## Tech stack 🛠
 * React
