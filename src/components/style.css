@@ -1,0 +1,70 @@
+:root {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 550px) {
+  :root {
+    font-size: 13px;
+  }
+}
+
+/* styles for Pagination.js component */
+.pagination {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination__item {
+  width: 45px;
+  height: 45px;
+  margin: 4px;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(109, 109, 109);
+  background-color: white;
+  border-radius: 2px;
+  border: 1px solid rgb(109, 109, 109);
+  cursor: pointer;
+  transition: 0.18s;
+}
+.pagination__item:hover.pagination__item--active {
+  background-color: rgb(5, 197, 255);
+}
+.pagination__item:hover {
+  background-color: rgba(183, 238, 255, 0.644);
+}
+@media screen and (max-width: 500px) {
+  .pagination__item {
+    width: 35px;
+    height: 35px;
+    margin: 2px;
+  }
+}
+
+.pagination__item--active {
+  background-color: rgb(5, 197, 255);
+  color: white;
+}
+
+/* styles for List.js component */
+table {
+  text-align: center;
+}
+@media screen and (max-width: 350px) {
+  table {
+    font-size: 0.9rem;
+  }
+}
+
+/* styles for Filtering.js component */
+
+.filtering__item {
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+}
