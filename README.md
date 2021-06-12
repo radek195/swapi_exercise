@@ -16,3 +16,6 @@ Application fetches data from public api: [SWAPI](https://swapi.dev/) and displa
 2. cd swapi_exercise
 3. npm install
 4. npm start
+
+## Or use live version 👁‍🗨
+[Click!](https://radek195.github.io/swapi_exercise/)
