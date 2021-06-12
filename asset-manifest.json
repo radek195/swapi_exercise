@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/swapi_exercise/static/css/main.70a8c76d.chunk.css",
+    "main.js": "/swapi_exercise/static/js/main.4db69a0f.chunk.js",
+    "main.js.map": "/swapi_exercise/static/js/main.4db69a0f.chunk.js.map",
+    "runtime-main.js": "/swapi_exercise/static/js/runtime-main.e2ac504d.js",
+    "runtime-main.js.map": "/swapi_exercise/static/js/runtime-main.e2ac504d.js.map",
+    "static/js/2.1c219c33.chunk.js": "/swapi_exercise/static/js/2.1c219c33.chunk.js",
+    "static/js/2.1c219c33.chunk.js.map": "/swapi_exercise/static/js/2.1c219c33.chunk.js.map",
+    "index.html": "/swapi_exercise/index.html",
+    "static/css/main.70a8c76d.chunk.css.map": "/swapi_exercise/static/css/main.70a8c76d.chunk.css.map",
+    "static/js/2.1c219c33.chunk.js.LICENSE.txt": "/swapi_exercise/static/js/2.1c219c33.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2ac504d.js",
+    "static/js/2.1c219c33.chunk.js",
+    "static/css/main.70a8c76d.chunk.css",
+    "static/js/main.4db69a0f.chunk.js"
+  ]
+}
