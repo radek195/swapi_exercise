@@ -8,9 +8,19 @@ const App = () => {
   const [planets, setPlanets] = useState([]);
   const [current, setCurrent] = useState(1);
 
-  const fetchPage = async (count) => {
-    const response = await api.get(`/?page=${count}`);
-    setPlanets(response.data.results);
+  const fetchPage = (count) => {
+    api
+      .get(`/?page=${count}`)
+      .then((res) => {
+        setPlanets(res.data.results);
+      })
+      .catch((err) => {
+        console.log(
+          "Error occured during request. Please check your connection or try again later."
+        );
+        console.log("Error message: ");
+        console.log(err);
+      });
   };
 
   useEffect(() => {
