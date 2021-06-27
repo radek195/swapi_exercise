@@ -1,4 +1,4 @@
-## Overwiev 👀
+## Overview 👀
 Application fetches data from public api: [SWAPI](https://swapi.dev/) and displays a table of planets with their correspoding details.
 
 #### Included features:
